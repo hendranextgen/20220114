@@ -1,0 +1,127 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper{
+    width: 1024px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #30475e;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky; /* agar menu tetap muncul saat website di scroll */
+    position: -webkit-sticky; /* khusus untuk safari web browser */
+    top: 0;
+    background: white;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px; /* atas kanan bawah kiri */
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline; /* garis bawah saat mouse diarahkan ke menu */
+}
+
+section {
+    margin: auto;
+    display: flex; /* akan membuat bagian div jadi berbentuk kolom */
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #35858B;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Chilanka';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #35858B;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.btn-biru {
+    background: #35858B;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-biru:hover {
+    background: #B762C1;
+    text-decoration: none;
+}
+
+a.btn-pink {
+    background: #35858B;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-pink:hover {
+    background: #B762C1;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
