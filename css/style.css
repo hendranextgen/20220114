@@ -61,7 +61,7 @@ nav{
     top: 0;
     background: #EEF2FF;
     z-index: 1;
-    border: 1px solid #35858B;
+    border-bottom: 1px solid #35858B;
 }
 
 nav ul{
