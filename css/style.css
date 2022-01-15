@@ -199,3 +199,31 @@ p {
     border-radius: 50%;
     border: 1px solid #35858B;
 }
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Chilanka';
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #35858B;
+    width: 100%;
+    line-height: 50px;
+}
