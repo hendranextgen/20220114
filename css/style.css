@@ -32,7 +32,7 @@ body{
 }
 
 .wrapper{
-    width: 950px;
+    width: 1100;
     margin: auto;
     position: relative;
 }
@@ -91,6 +91,7 @@ section {
     margin: auto;
     display: flex; /* akan membuat bagian div jadi berbentuk kolom */
     margin-bottom: 50px;
+    /*padding-top: 165px;*/
 }
 
 .kolom{
@@ -226,4 +227,60 @@ h3 {
     color: #35858B;
     width: 100%;
     line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-top: 0px;
+    font-size: 10px;
+    color: #8946A6;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+        /*padding-top: 180px;*/
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
 }
