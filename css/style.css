@@ -30,7 +30,7 @@ body{
     font-weight: 800;
     float: left;
     font-family: 'Dyuthi';
-    color: #30475e;
+    color: #35858B;
 }
 
 .menu{
@@ -112,7 +112,7 @@ a.btn-biru {
 }
 
 a.btn-biru:hover {
-    background: #B762C1;
+    background: #8946A6;
     text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ a.btn-pink {
 }
 
 a.btn-pink:hover {
-    background: #B762C1;
+    background: #8946A6;
     text-decoration: none;
 }
 
