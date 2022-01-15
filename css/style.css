@@ -4,6 +4,15 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'Chilanka';
+    src: url('https://hendranextgen.github.io/20220114/css/fonts/Chilanka-Regular.otf');
+}
+@font-face {
+    font-family: 'Dyuthi';
+    src: url('https://hendranextgen.github.io/20220114/css/fonts/Dyuthi-Regular.ttf');
+}
+
 body{
     margin: 0px;
     padding: 0px;
