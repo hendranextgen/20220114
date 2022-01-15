@@ -56,6 +56,8 @@ nav{
     position: -webkit-sticky; /* khusus untuk safari web browser */
     top: 0;
     background: white;
+    z-index: 1;
+    border: 1px solid #35858B;
 }
 
 nav ul{
