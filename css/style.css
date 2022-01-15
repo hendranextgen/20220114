@@ -28,7 +28,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    /*font-family: 'Open Sans',sans-serif;*/
     font-family: 'FreeSans';
 }
 
@@ -60,7 +59,7 @@ nav{
     position: sticky; /* agar menu tetap muncul saat website di scroll */
     position: -webkit-sticky; /* khusus untuk safari web browser */
     top: 0;
-    background: white;
+    background: #EEF2FF;
     z-index: 1;
     border: 1px solid #35858B;
 }
