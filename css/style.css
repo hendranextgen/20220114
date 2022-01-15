@@ -32,7 +32,7 @@ body{
 }
 
 .wrapper{
-    width: 1100;
+    width: 1100px;
     margin: auto;
     position: relative;
 }
@@ -203,7 +203,7 @@ p {
 
 #contact {
     background: #dedede;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px 40px 0px;
 }
 
 .footer {
@@ -238,7 +238,15 @@ h3 {
     color: #8946A6;
 }
 
-@media screen and (max-width: 991.98px) {
+.jump-to-top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background: linear-gradient(to right, orange, red) !important;
+    border: 1px solid black;
+    }
+
+@media screen and (max-width: 1100px) {
     .wrapper {
         width: 90%;
     }
