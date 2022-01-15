@@ -171,6 +171,7 @@ p {
 .kartu-tutor img {
     width: 80%; /* 80% dari ukuran div di atasnya (.kartu-tutor) */
     border-radius: 50%; /* untuk bentuk lingkaran */
+    border: 1px solid #35858B;
 }
 
 .kartu-tutor p {
