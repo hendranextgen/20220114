@@ -32,38 +32,10 @@ body{
     font-size: large;
 }
 
-/*.logo a{
-    margin-top: 5px;
-    font-size: 45px;
-    font-weight: 600;
-    float: left;
-    font-family: 'Dyuthi';
-    color: #35858B;
-}*/
-
 .navbar-brand {
     font-size: 45px;
     font-weight: 500;
     font-family: 'Dyuthi';
-    /* color: #35858B; */
-}
-
-/* .menu{
-    float: right;
-    font-family: 'FreeSerif';
-} */
-
-nav{
-    /* width: 100%; */
-    /* margin: auto; */
-    /* display: flex; */
-    /*line-height: 80px;*/
-    /*position: sticky; /* agar menu tetap muncul saat website di scroll */
-    /*position: -webkit-sticky; /* khusus untuk safari web browser */
-    /* top: 0; */
-    background: #EEF2FF;
-    /* z-index: 1; */
-    /* border-bottom: 1px solid #35858B; */
 }
 
 nav ul{
@@ -88,28 +60,6 @@ nav ul li a{
 nav ul li a:hover{
     text-decoration: underline; /* garis bawah saat mouse diarahkan ke menu */
 }
-
-/* section {
-    padding-top: 7rem;
-    margin: auto;
-    display: flex; /* akan membuat bagian div jadi berbentuk kolom */
-    /*margin-bottom: 50px;
-} */
-/* 
-.kolom{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-} */
-
-/* .kolom .deskripsi {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #35858B;
-    margin-bottom: 20px;
-} */
 
 h4 {
     font-family: 'FreeSerif';
