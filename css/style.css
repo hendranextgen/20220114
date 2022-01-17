@@ -31,33 +31,34 @@ body{
     font-family: 'FreeSans';
 }
 
-.wrapper{
-    width: 1100px;
-    margin: auto;
-    position: relative;
-}
-
-.logo a{
+/*.logo a{
     margin-top: 5px;
     font-size: 45px;
     font-weight: 600;
     float: left;
     font-family: 'Dyuthi';
     color: #35858B;
+}*/
+
+.navbar-brand {
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Dyuthi';
+    color: #35858B;
 }
 
-.menu{
+/* .menu{
     float: right;
     font-family: 'FreeSerif';
-}
+} */
 
 nav{
     width: 100%;
     margin: auto;
-    display: flex;
-    line-height: 80px;
-    position: sticky; /* agar menu tetap muncul saat website di scroll */
-    position: -webkit-sticky; /* khusus untuk safari web browser */
+    /* display: flex; */
+    /*line-height: 80px;*/
+    /*position: sticky; /* agar menu tetap muncul saat website di scroll */
+    /*position: -webkit-sticky; /* khusus untuk safari web browser */
     top: 0;
     background: #EEF2FF;
     z-index: 1;
@@ -79,7 +80,7 @@ nav ul li a{
     color: black;
     font-weight: bold;
     text-align: center;
-    padding: 0px 16px 0px 16px; /* atas kanan bawah kiri */
+    /*padding: 0px 16px 0px 16px; /* atas kanan bawah kiri */*/
     text-decoration: none;
 }
 
@@ -87,27 +88,27 @@ nav ul li a:hover{
     text-decoration: underline; /* garis bawah saat mouse diarahkan ke menu */
 }
 
-section {
+/* section {
+    padding-top: 7rem;
     margin: auto;
     display: flex; /* akan membuat bagian div jadi berbentuk kolom */
-    margin-bottom: 50px;
-    /*padding-top: 165px;*/
-}
-
+    /*margin-bottom: 50px;
+} */
+/* 
 .kolom{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
-}
+} */
 
-.kolom .deskripsi {
+/* .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
     color: #35858B;
     margin-bottom: 20px;
-}
+} */
 
 h2 {
     font-family: 'Chilanka';
@@ -147,72 +148,72 @@ a.btn-pink:hover {
     text-decoration: none;
 }
 
-p {
+/* p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
-}
+} */
 
-.tengah {
+/* .tengah {
     text-align: center;
     width: 100%;
-}
+} */
 
-.tutor-list {
+/* .tutor-list {
     width: 100%;
     position: relative;
     display: flex; /* agar berbentuk seperti kolom-kolom */
-    flex-wrap: wrap; /* supaya tidak memanjang jadi 1 baris */
-}
+    /*flex-wrap: wrap; /* supaya tidak memanjang jadi 1 baris */
+/*} */
 
-.kartu-tutor {
+/* .kartu-tutor {
     width: 25%;
     margin: 0 auto;
-}
+} */
 
-.kartu-tutor img {
+/* .kartu-tutor img {
     width: 80%; /* 80% dari ukuran div di atasnya (.kartu-tutor) */
-    border-radius: 50%; /* untuk bentuk lingkaran */
-    border: 1px solid #35858B;
-}
+    /*border-radius: 50%; /* untuk bentuk lingkaran */
+    /*border: 1px solid #35858B;
+} */
 
-.kartu-tutor p {
+/* .kartu-tutor p {
     font-family: 'Chilanka';
     font-weight: 800;
     font-size: 20px;
     text-align: center;
     color: #35858B;
-}
+} */
 
-.partner-list {
+/* .partner-list {
     width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
-.kartu-partner {
+/* .kartu-partner {
     width: 20%;
     margin: 0 auto;
-}
+} */
 
-.kartu-partner img {
+/* .kartu-partner img {
     width: 150px;
     border-radius: 50%;
     border: 1px solid #35858B;
-}
+} */
 
 #contact {
     background: #dedede;
     padding: 50px 0px 40px 0px;
 }
 
-.footer {
+/* .footer {
     width: 100%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-}
+} */
 
 .footer-section {
     width: 20%;
@@ -228,7 +229,7 @@ h3 {
     width: 100%;
     line-height: 50px;
 }
-
+/* 
 #copyright {
     text-align: center;
     width: 100%;
@@ -236,17 +237,9 @@ h3 {
     margin-top: 0px;
     font-size: 10px;
     color: #8946A6;
-}
+} */
 
-.jump-to-top {
-    position: fixed;
-    bottom: 5%;
-    right: 5%;
-    background: linear-gradient(to right, orange, red) !important;
-    border: 1px solid black;
-    }
-
-@media screen and (max-width: 1100px) {
+/*@media screen and (max-width: 1100px) {
     .wrapper {
         width: 90%;
     }
@@ -275,7 +268,6 @@ h3 {
 
     section {
         display: block;
-        /*padding-top: 180px;*/
     }
 
     section img {
@@ -295,4 +287,4 @@ h3 {
     .footer-section {
         width: 50%;
     }
-}
+}*/
