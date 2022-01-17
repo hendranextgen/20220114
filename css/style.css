@@ -26,9 +26,10 @@
 }
 
 body{
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px; */
+    /* padding: 0px; */
     font-family: 'FreeSans';
+    font-size: large;
 }
 
 /*.logo a{
@@ -44,7 +45,7 @@ body{
     font-size: 45px;
     font-weight: 500;
     font-family: 'Dyuthi';
-    color: #35858B;
+    /* color: #35858B; */
 }
 
 /* .menu{
@@ -53,16 +54,16 @@ body{
 } */
 
 nav{
-    width: 100%;
-    margin: auto;
+    /* width: 100%; */
+    /* margin: auto; */
     /* display: flex; */
     /*line-height: 80px;*/
     /*position: sticky; /* agar menu tetap muncul saat website di scroll */
     /*position: -webkit-sticky; /* khusus untuk safari web browser */
-    top: 0;
+    /* top: 0; */
     background: #EEF2FF;
-    z-index: 1;
-    border-bottom: 1px solid #35858B;
+    /* z-index: 1; */
+    /* border-bottom: 1px solid #35858B; */
 }
 
 nav ul{
@@ -109,6 +110,10 @@ nav ul li a:hover{
     color: #35858B;
     margin-bottom: 20px;
 } */
+
+h4 {
+    font-family: 'FreeSerif';
+}
 
 h2 {
     font-family: 'Chilanka';
